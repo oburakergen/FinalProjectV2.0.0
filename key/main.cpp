@@ -118,7 +118,7 @@ int main() {
     clock_t begin = clock();
     cout<<total.length()<<endl;
     string key = findW();
-    string url = "/home/vairosoft/burak/Workstation/my-apps/FinalProjectV2.0.0/encode/key/key_" +
+    string url = "/home/burak/Workstation/my-apps/FinalProjectV2.0.0/encode/key/key_" +
             key.substr(0, 244) +".txt";
     ofstream file(url);
     file << findW();

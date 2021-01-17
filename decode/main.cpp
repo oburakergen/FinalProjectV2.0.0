@@ -58,7 +58,7 @@ int main() {
             myfile.open(file.path());
             cin >> data;
             myfile.close();
-            url = "/home/vairosoft/burak/Workstation/my-apps/FinalProjectV2.0.0/decode/key/key_" +
+            url = "/home/burak/Workstation/my-apps/FinalProjectV2.0.0/decode/key/key_" +
                   data.substr(0, 244) +".txt";
             ofstream file2(url);
             message = charGenerator(file2 << data - key;)

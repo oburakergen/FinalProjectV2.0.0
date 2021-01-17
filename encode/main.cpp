@@ -40,7 +40,7 @@ int main() {
     string path = "./key";
     string pass = "";
     string messagess ="";
-    string url = "/home/vairosoft/burak/Workstation/my-apps/FinalProjectV2.0.0/encode/messages.txt";
+    string url = "/home/burak/Workstation/my-apps/FinalProjectV2.0.0/encode/messages.txt";
     ofstream myfile(url);
     myfile.open(url);
     cin >> messagess;
@@ -54,7 +54,7 @@ int main() {
             myfile.open(file.path());
             cin >> data;
             myfile.close();
-            url = "/home/vairosoft/burak/Workstation/my-apps/FinalProjectV2.0.0/decode/key/key_" +
+            url = "/home/burak/Workstation/my-apps/FinalProjectV2.0.0/decode/key/key_" +
                     data.substr(0, 244) +".txt";
             ofstream file2(url);
             file2 << data + asciiGenerator(messagess);
